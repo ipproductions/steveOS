@@ -17,7 +17,7 @@
 # Installation
 - Download this repo and extract to your home directory
 - Install fonts from the "steveOS (Fonts)" folder in your home directory
-- Edit the XML in "steveOS (BG)" to point to the full path of your preferred BG folder
+- Edit the XML in "steveOS (Backgrounds)" to point to the full path of your preferred BG folder
 - Copy contents of "steveOS (Login)" to "/usr/share/gnome-shell/theme/"
 
 # Applying Themes
