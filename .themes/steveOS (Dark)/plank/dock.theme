@@ -1,4 +1,4 @@
-#This theme written by Vince Liuice.
+#This theme originally written by Vince Liuice. Modified by ipproductions.
 
 [PlankTheme]
 #The roundness of the top corners.
@@ -61,6 +61,3 @@ UrgentHueShift=150
 ItemMoveTime=200
 #Whether background and icons will unhide/hide with different speeds. The top-border of both will leave/hit the screen-edge at the same time.
 CascadeHide=true
-
-[Desktop Entry]
-Name[pt_BR]=dock mojave night.txt
