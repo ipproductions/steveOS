@@ -1,0 +1,78 @@
+
+/*LIGHT ON DARK THEMING*/
+#main-window #navigator-toolbox #TabsToolbar:not(:-moz-lwtheme){ background: black !important; }
+.tabbrowser-tab:not([selected]) .tab-content{ color: white !important; }
+.titlebar-spacer { width: 8px !important; }
+
+#TabsToolbar .toolbarbutton-1, .tabbrowser-arrowscrollbox > .scrollbutton-up, .tabbrowser-arrowscrollbox > .scrollbutton-down { color: #999 !important; }
+
+#TabsToolbar .toolbarbutton-1:hover, .tabbrowser-arrowscrollbox:hover > .scrollbutton-up:hover, .tabbrowser-arrowscrollbox:hover > .scrollbutton-down:hover { color: #DDD !important; }
+/**/
+
+/* HIDE TAB CLOSE BUTTON */
+.tab-close-button { display: none !important; }
+/**/
+
+/* REDUCE LABEL FADE */
+.tab-label-container[textoverflow][labeldirection="ltr"]:not([pinned]) {
+  mask-image: linear-gradient(to left, transparent, black 20px) !important;
+}
+/**/
+
+/* DISABLE MUTED TAB INDICATOR */
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+.tabbrowser-tab :-moz-any(.tab-icon-sound) { opacity: 0.75 !important; }
+.tab-icon-sound[muted] { display: none !important; }
+
+.tab-icon-overlay[soundplaying] { background: white !important; fill: black !important; }
+.tab-icon-overlay[muted]:not([crashed]) { display: none !important; }
+
+.all-tabs-secondary-button[muted] { display:none !important; }
+/**/
+
+/* BOOKMARK BAR ONLY ON NEW TAB vimeo.com/235059188 | vimeo.com/240436456
+   reddit.com/user/AJtfM7zT4tJdaZsm | reddit.com/r/FirefoxCSS/comments/7evwow/show_bookmarks_toolbar_only_on_new_tab/ */
+#main-window #PersonalToolbar {
+  visibility: collapse !important;
+}
+
+#main-window[title^="about:newtab"] #PersonalToolbar,
+#main-window[title^="New Tab"] #PersonalToolbar,
+#main-window[title^="Novo Separador"] #PersonalToolbar,
+#main-window[title^="Nightly"] #PersonalToolbar,
+#main-window[title^="Mozilla Firefox"] #PersonalToolbar,
+#main-window[title^="Firefox"] #PersonalToolbar,
+#main-window[title^="新标签页"] #PersonalToolbar {
+  visibility: visible !important;
+}
+/**/
+
+/* ROTATE ADD-ON BUTTON */
+#PlacesChevron, #nav-bar-overflow-button { transform: rotate(90deg) !important; }
+/**/
+
+/* FIX BOOKMARK BAR PADDING */
+:root[uidensity="compact"] toolbarbutton.bookmark-item:not(.subviewbutton) { padding:5px 10px !important; }
+/**/
+
+/* OVERLAY SCROLLBAR */
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+toolbarbutton#alltabs-button {
+    -moz-binding: url("userChrome.xml#js");
+}
+/**/
+
+/* WHITEFLASH FIX */
+#browser vbox#appcontent tabbrowser,
+#content, #tabbrowser-tabpanels,
+browser[type=content-primary],
+browser[type=content] > html
+{ background: var(--in-content-page-background) !important }
+/**/
+
+/* TAB DIVIDER TRANSP. FIX */
+.tabbrowser-tab::after { opacity:0.15 !important; color: white !important; }
+.titlebar-spacer[type="pre-tabs"] { opacity:0.15 !important; color: white !important; }
+/**/

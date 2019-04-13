@@ -1,0 +1,178 @@
+
+<!--
+
+# CREDIT #
+- https://gist.github.com/trongthanh/7d632e90687e1bc219e1f3262d337702
+
+-->
+
+<background>
+  <starttime>
+    <year>2014</year>
+    <month>01</month>
+    <day>11</day>
+    <hour>0</hour>
+    <minute>00</minute>
+    <second>00</second>
+  </starttime>
+  <!-- 00:00 -->
+  <static>
+    <duration>10795.0</duration>
+    <file>/usr/share/backgrounds/steveOS_15.jpeg</file>
+  </static>
+  <transition type="overlay">
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/steveOS_15.jpeg</from>
+    <to>/usr/share/backgrounds/steveOS_16.jpeg</to>
+  </transition>
+  <!-- 03:00 -->
+  <static>
+    <duration>10795.0</duration>
+    <file>/usr/share/backgrounds/steveOS_16.jpeg</file>
+  </static>
+  <transition type="overlay">
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/steveOS_16.jpeg</from>
+    <to>/usr/share/backgrounds/steveOS_1.jpeg</to>
+  </transition>
+  <!-- 05:00 -->
+  <static>
+    <duration>3595.0</duration>
+    <file>/usr/share/backgrounds/steveOS_1.jpeg</file>
+  </static>
+  <transition type="overlay">
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/steveOS_1.jpeg</from>
+    <to>/usr/share/backgrounds/steveOS_2.jpeg</to>
+  </transition>
+  <!-- 06:00 -->
+  <static>
+    <duration>3595.0</duration>
+    <file>/usr/share/backgrounds/steveOS_2.jpeg</file>
+  </static>
+  <transition type="overlay">
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/steveOS_2.jpeg</from>
+    <to>/usr/share/backgrounds/steveOS_3.jpeg</to>
+  </transition>
+  <!-- 07:00 -->
+  <static>
+    <duration>3595.0</duration>
+    <file>/usr/share/backgrounds/steveOS_3.jpeg</file>
+  </static>
+  <transition type="overlay">
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/steveOS_3.jpeg</from>
+    <to>/usr/share/backgrounds/steveOS_4.jpeg</to>
+  </transition>
+  <!-- 08:00 -->
+  <static>
+    <duration>3595.0</duration>
+    <file>/usr/share/backgrounds/steveOS_4.jpeg</file>
+  </static>
+  <transition type="overlay">
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/steveOS_4.jpeg</from>
+    <to>/usr/share/backgrounds/steveOS_5.jpeg</to>
+  </transition>
+  <!-- 09:00 -->
+  <static>
+    <duration>3595.0</duration>
+    <file>/usr/share/backgrounds/steveOS_5.jpeg</file>
+  </static>
+  <transition type="overlay">
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/steveOS_5.jpeg</from>
+    <to>/usr/share/backgrounds/steveOS_6.jpeg</to>
+  </transition>
+  <!-- 10:00 -->
+  <static>
+    <duration>3595.0</duration>
+    <file>/usr/share/backgrounds/steveOS_6.jpeg</file>
+  </static>
+  <transition type="overlay">
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/steveOS_6.jpeg</from>
+    <to>/usr/share/backgrounds/steveOS_7.jpeg</to>
+  </transition>
+  <!-- 11:00 -->
+  <static>
+    <duration>7195.0</duration>
+    <file>/usr/share/backgrounds/steveOS_7.jpeg</file>
+  </static>
+  <transition type="overlay">
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/steveOS_7.jpeg</from>
+    <to>/usr/share/backgrounds/steveOS_8.jpeg</to>
+  </transition>
+  <!-- 13:00 -->
+  <static>
+    <duration>3595.0</duration>
+    <file>/usr/share/backgrounds/steveOS_8.jpeg</file>
+  </static>
+  <transition type="overlay">
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/steveOS_8.jpeg</from>
+    <to>/usr/share/backgrounds/steveOS_9.jpeg</to>
+  </transition>
+  <!-- 14:00 -->
+  <static>
+    <duration>3595.0</duration>
+    <file>/usr/share/backgrounds/steveOS_9.jpeg</file>
+  </static>
+  <transition type="overlay">
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/steveOS_9.jpeg</from>
+    <to>/usr/share/backgrounds/steveOS_10.jpeg</to>
+  </transition>
+  <!-- 15:00 -->
+  <static>
+    <duration>3595.0</duration>
+    <file>/usr/share/backgrounds/steveOS_10.jpeg</file>
+  </static>
+  <transition type="overlay">
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/steveOS_10.jpeg</from>
+    <to>/usr/share/backgrounds/steveOS_11.jpeg</to>
+  </transition>
+  <!-- 16:00 -->
+  <static>
+    <duration>3595.0</duration>
+    <file>/usr/share/backgrounds/steveOS_11.jpeg</file>
+  </static>
+  <transition type="overlay">
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/steveOS_11.jpeg</from>
+    <to>/usr/share/backgrounds/steveOS_12.jpeg</to>
+  </transition>
+  <!-- 17:00 -->
+  <static>
+    <duration>3595.0</duration>
+    <file>/usr/share/backgrounds/steveOS_12.jpeg</file>
+  </static>
+  <transition type="overlay">
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/steveOS_12.jpeg</from>
+    <to>/usr/share/backgrounds/steveOS_13.jpeg</to>
+  </transition>
+  <!-- 18:00 -->
+  <static>
+    <duration>7195.0</duration>
+    <file>/usr/share/backgrounds/steveOS_13.jpeg</file>
+  </static>
+  <transition type="overlay">
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/steveOS_13.jpeg</from>
+    <to>/usr/share/backgrounds/steveOS_14.jpeg</to>
+  </transition>
+  <!-- 20:00 -->
+  <static>
+    <duration>10795.0</duration>
+    <file>/usr/share/backgrounds/steveOS_14.jpeg</file>
+  </static>
+  <transition type="overlay">
+    <duration>5.0</duration>
+    <from>/usr/share/backgrounds/steveOS_14.jpeg</from>
+    <to>/usr/share/backgrounds/steveOS_15.jpeg</to>
+  </transition>
+</background>
