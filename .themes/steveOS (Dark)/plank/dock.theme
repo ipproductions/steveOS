@@ -1,4 +1,4 @@
-#This theme originally written by Vince Liuice. Modified by ipproductions.
+#This theme written by Vince Liuice. Modified by ipproductions.
 
 [PlankTheme]
 #The roundness of the top corners.
@@ -10,9 +10,9 @@ LineWidth=0
 #The color (RGBA) of the outer stroke.
 OuterStrokeColor=0;;0;;0;;35
 #The starting color (RGBA) of the fill gradient.
-FillStartColor=135;;135;;140;;95
+FillStartColor=50;;60;;80;;195
 #The ending color (RGBA) of the fill gradient.
-FillEndColor=125;;125;;130;;75
+FillEndColor=50;;60;;80;;175
 #The color (RGBA) of the inner stroke.
 InnerStrokeColor=255;;255;;255;;15
 
